@@ -1,0 +1,52 @@
+html{
+  font-size: 16px;
+}
+body {
+  background-color: rgb(223, 228, 252);
+  margin: 2rem 0 0 0;
+  display: flex;
+  justify-content: center;
+}
+
+.toolTip{
+  max-width: 250px;
+  font-family: Helvetica, sans-serif;
+  background-color: rgb(232, 236, 255);
+  border-radius: 6px;
+  padding: 6px 11px;
+  box-shadow: 0 3px 3px rgba(0, 0, 0, 0.493);
+}
+
+.chartBkg{
+  fill: rgb(255, 255, 255);
+}
+
+.chartTitle,
+.yTitle{
+  fill: rgb(20, 0, 110);
+  font: bold 40px sans-serif;
+}
+.yTitle{
+  font-size: 20px;
+}
+
+.dot {
+  stroke:black;
+  stroke-width:1px;
+}
+
+.axis text {
+  fill: rgb(0, 5, 70);
+  font: 12px sans-serif;
+}
+.axis path,
+.axis line {
+  fill: none;
+  stroke: rgb(0, 5, 70);
+  stroke-width: 1px;
+  shape-rendering: crispEdges;
+}
+.x.axis path {
+  /* display: none; */
+}
+
